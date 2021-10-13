@@ -8,7 +8,7 @@ def actual_demo():
             with st.spinner("Generating table..."):
                 st.write(f"Table of {num}\n-----------------------")
                 for times in range(1,10+1):
-                  st.write(f"{times}x{num}={times*num}")  
+                  st.write(f"{times} x {num} =  {times*num}")  
 
 def main():
     st.title("Generate tables of numbers")
