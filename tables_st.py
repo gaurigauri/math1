@@ -2,7 +2,7 @@ import streamlit as st
 
 def actual_demo():
     with st.form(key='qa_form'):
-        num = st.text_input(label="Table of which number?", value=5, type="int")
+        num = st.number_input("Table of ", 0, 1000000, 5, 1)
         submitted = st.form_submit_button(label='Generate table')
         if submitted:
             with st.spinner("Generating table..."):
