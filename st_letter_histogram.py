@@ -24,7 +24,7 @@ def set_bg_hack_url():
          <style>
          
          .stApp {{
-             background: url("https://images7.alphacoders.com/696/thumb-1920-696556.jpg");
+             background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.VNkZS4bwa4CrCA7EHNWQrgAAAA%3Fr%3D0%26pid%3DApi&f=1&ipt=5f09b027bc1523e5bedc0eed4229ee985d16e57bc6e48c086271e8fdd08a2526&ipo=images");
              background-size: cover
          }}
          </style>
